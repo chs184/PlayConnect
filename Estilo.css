@@ -1,0 +1,60 @@
+body{
+    font-family: 'Franklin Gothic Medium';
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    background-color: rgb(255, 97, 97);
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+}
+h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+}
+
+main{
+    background-color: rgb(245, 176, 176);
+    text-align: center;
+    padding: 20px 30px;
+}
+
+footer{
+    background-color: rgb(236, 134, 134);
+    text-align: center;
+    border: none;
+}
+
+.menu-btn{
+    background-color: #f54141;
+    color: rgb(255, 255, 255);
+    padding: 20px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: backgronund-color 0.3s, transform 0.2s;
+}
+
+.menu-btn:hover{
+    background-color: #eb7f7f;
+    transform: scale(1.05);
+}
+
+.sobre-nosotros-container {
+  max-width: 700px;
+  width: 90%;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.7;
+  color: #333;
+  text-align: justify;
+}

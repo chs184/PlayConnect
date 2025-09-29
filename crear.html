@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encuentros Deportivos - Crear</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header-premium">
+  <div class="logo-container">
+    <img src="logo.png" alt="Logo PlayConnect" class="logo-img">
+    <h1 class="logo-text">PlayConnect</h1>
+  </div>
+
+  <nav class="nav-premium">
+    <ul>
+      <li><a href="inicio.html" class="active">Inicio</a></li>
+      <li><a href="index.html">Buscar</a></li>
+      <li><a href="crear.html">Crear</a></li>
+      <li><a href="reservas.html">Reservas</a></li>
+      <li><a href="perfil.html">Perfil</a></li>
+      <li><a href="acerca de.html">Acerca de</a></li>
+    </ul>
+  </nav>
+
+  <div class="cta-container">
+    <a href="crear.html" class="btn-cta">+ Crear Partido</a>
+  </div>
+</header>
+
+  <main>
+    <!-- Texto introductorio -->
+    <section class="intro-crear">
+      <h2>Organiza tu encuentro en segundos</h2>
+      <p>Completa el formulario para crear un partido. Elige el deporte, fija la fecha y selecciona el lugar. ¡Invita a tus amigos y empieza a jugar!</p>
+    </section>
+
+    <!-- Formulario animado -->
+    <section class="form-card">
+      <form id="formPartido">
+        <label>⚽ Deporte:
+          <input type="text" id="deporte" placeholder="Ej: Fútbol 7">
+        </label>
+        <label>📅 Fecha:
+          <input type="date" id="fecha">
+        </label>
+        <label>📍 Lugar:
+          <input type="text" id="lugar" placeholder="Ej: Polideportivo Central">
+        </label>
+        <button type="submit">Crear partido</button>
+      </form>
+    </section>
+
+    <!-- Texto motivacional -->
+    <section class="tips">
+      <h3>💡 Consejo</h3>
+      <p>Recuerda invitar a tus amigos y compartir el enlace para que tu partido se llene más rápido.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Encuentros Deportivos</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
